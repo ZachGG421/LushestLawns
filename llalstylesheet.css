@@ -1,0 +1,53 @@
+body{
+    background-image: url('https://www.kiwilandscapes.com/wp-content/uploads/2020/07/Garden-design-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    font-family: "Courier";
+    text-align: center;
+}
+
+h2{
+    font-family: "Courier";
+    text-align: center;
+}
+
+div{
+    font-family:"Lucida Console";
+    margin: 50px;
+    border: 1px solid green;
+    background-color:white;
+    opacity: 1;   
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #3D3C3A;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    display:block;
+    color:black;
+    text-align:center;
+    padding: 10px 19px;
+    text-decoration:none;
+    font-size: 14px;
+    background-color:white;
+}
+
+li a:hover:not(.active){
+    background-color: black;
+    color:white;
+}
+
+.active{
+    background-color: #3EB489;
+}
